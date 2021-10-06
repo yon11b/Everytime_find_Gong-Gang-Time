@@ -68,10 +68,3 @@
 		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
 			background-color: #c0392b !important;
 		}
-		.error_message{
-			display: inline-block;
-			font-size: 1rem;
-			line-height: 19px;
-			color: #ff003e;
-			vertical-align: middle;
-		}

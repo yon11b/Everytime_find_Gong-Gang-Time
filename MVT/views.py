@@ -50,8 +50,7 @@ def login(request):
             name = soup.find('p', class_='school').string
             print('success')  ##성공시 success출력
         except:
-            error="아이디 및 비밀번호를 확인해주세요."
             print('try again')  # 실패 시 try again출력
-            return render(request, "login.html", {'error': error})
+            return render(request, "error.html")
 
     return render(request, "login.html")
